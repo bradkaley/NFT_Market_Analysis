@@ -2,7 +2,15 @@
 
 ## Project Overview
 
-Analyzing data from the US Stock Market, NFT Marketplace, and Crypto Market to identify data driven trends in the NFT market
+Analyzing data from the US Stock Market, NFT Marketplace, and Crypto Market to identify data driven trends in the NFT market. We will look to answer the following research questions.
+
+1. How do fluctuating ETH gas prices affect NFTs and ETH prices?
+2. What kind of dollar volumes do the chosen NFTs have?
+3. What are the price trends for NFTs and what can you expect if you choose to invest?
+4. What does the landscape of NFT buyers and sellers look like?
+5. How are the new Bitcoin ETF and more volatile ETFs performing? Does this mean anything for potential future NFT ETFs?
+6. What kind of trading volumes do the chosen NFTs have compared to ETH and ETFs ?
+The following sections provide discussions and answer each quetion.
 
 ## Broader Market Analysis
 
@@ -67,17 +75,16 @@ BITO, a newly launched ETF, which is composed of BITCOIN backed assets was one E
 
 - NFT volume across the explored projects was incredibly low relative to ETF volume. Perhaps a better comparison would have been to compare to another asset class entirely? Art?
 
-- Wide Spread of Ethereum gas prices as ETH rises in price. You would think that the data points would be more strongly correlated as ethereum rises in price. Possible explaination / hypothesis of individuals selling ETH as price rises thus curbing the actual usage on the blockchain?
+- Wide Spread of Ethereum gas prices as ETH rises in price. You would think that the data points would be more strongly correlated as ethereum rises in price. Possible explaination / hypothesis of individuals holding ETH as price rises thus curbing the actual usage on the blockchain?
 
-- Why did ETH gas pricing not have an inverse correllation with NFT volume? 
-Poible explaination could be that due to these collections being limited releases (typically 10,000 count or fewer per collection) that individuals do not have the luxury of waiting for gas prices to reduce to purchase.
+- Why did ETH gas pricing not have an strong positive correllation with NFT volume? Possible explanation could be that due to these collections being limited releases (typically 10,000 count or fewer per collection) that individuals do not have the luxury of waiting for gas prices to reduce to purchase.
 
-- Explosion of NFT sales after 5/1/21 
+- Explosion of NFT sales after 5/1/21. Did mainstream interest in NFT projects drive the uneducated buyer into investing? Facebook had been linked to Metaverse projects, Gamestop is working on an NFT platform, various celebrities have purchased NFTs as social media avatars. 
 
-- NFTs are not equal. See distribution of NFT sales data on Price of NFT Sales over time. What makes these individual NFTs more valuable than the others? Combination of rarity traits, popularity
+- NFTs are not equal. See distribution of NFT sales data on Price of NFT Sales over time. What makes these individual NFTs more valuable than the others? Combination of rarity traits, popularity, 
 
-- Evidence of a few large "whale" buyers among the three tracked NFT projects (tallying buyers in the 100-150, 150-200 and 250-300 thresholds) 
+- Evidence of a few large "whale" buyers among the three tracked NFT projects (tallying buyers in the 100-150, 150-200 and 250-300 thresholds).   
 
-- Most common distribution across buying and selling is 5-10 NFTs for the buy and sell bar charts indicating that the average buyer is not holding NFTs long term
+- Most common distribution across buying and selling is 5-10 NFTs for the buy and sell bar charts indicating that the average buyer is not holding NFTs long term.
 
 
