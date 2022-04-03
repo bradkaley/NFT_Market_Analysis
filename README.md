@@ -10,7 +10,7 @@ Analyzing data from the US Stock Market, NFT Marketplace, and Crypto Market to i
 4. What does the landscape of NFT buyers and sellers look like?
 5. How are the new Bitcoin ETF and more volatile ETFs performing? Does this mean anything for potential future NFT ETFs?
 6. What kind of trading volumes do the chosen NFTs have compared to ETH and ETFs ?
-The following sections provide discussions and answer each quetion.
+The following sections provide discussions and answer each question.
 
 ## Broader Market Analysis
 
@@ -20,14 +20,14 @@ The NFT projects we tracked all traded in the 5 million in volume range.
 
 ![Volume_comparison_all_assets](https://user-images.githubusercontent.com/91380617/142706479-cec31381-e976-4ae5-94ca-3f3cec1ebf86.png)
 
-During our inital discussion for our project we determined that analyzing the impact of Ethereum gas prices could be a significant factor in determining how NFTs were purchased given that most popular NFTs are built on the Ethereum blockchain. Looking at the below plot it's clear there is a positive correlation between the increase in Ethereum price and the increase in gas prices (converted to USD). This would make sense given that as Ethereum increases in price the demand for the blockchain and ultimate usage would increase thus driving gas prices upward. What stuck out most on this plot was the wide spread of data points once Ethereum crosses 2000 USD. 
+During our initial discussion for our project we determined that analyzing the impact of Ethereum gas prices could be a significant factor in determining how NFTs were purchased given that most popular NFTs are built on the Ethereum blockchain. Looking at the below plot it's clear there is a positive correlation between the increase in Ethereum price and the increase in gas prices (converted to USD). This would make sense given that as Ethereum increases in price the demand for the blockchain and ultimate usage would increase thus driving gas prices upward. What stuck out most on this plot was the wide spread of data points once Ethereum crosses 2000 USD. 
 
 ![ETH_close_vs_gas_prices](https://user-images.githubusercontent.com/91380617/142706524-af9fd392-8be0-4c43-8ec7-c8918ce523f9.png)
 
 ## NFT Market Analysis
 
 ### NFT Buyers and Sellers
-We ran the data that we pulled from the Opensea API and tracked buys and sells across the three collections that we tracked. At first glance, it would appear that both graphs are the same. However, you'll notice that there a number of large buyers across the three tracked NFT collections (tallying buyers in the 100-150, 150-200 and 250-300 thresholds). This would indicate that there are individuals with very high conviction on these projects purchasing a very large quantity of the NFTs.
+We ran the data that we pulled from the OpenSea API and tracked buys and sells across the three collections that we tracked. At first glance, it would appear that both graphs are the same. However, you'll notice that there a number of large buyers across the three tracked NFT collections (tallying buyers in the 100-150, 150-200 and 250-300 thresholds). This would indicate that there are individuals with very high conviction on these projects purchasing a very large quantity of the NFTs.
 
 It would seem that the average buyer (5-10 for both buys and sells) does not hold these NFTs for long and ends up selling the NFT.
 
@@ -43,7 +43,7 @@ The below was a function we ran to calculate summary statistics and price data a
 ### How Has the Price Changed Over Time for These Collections?
 How has the price changed over time for these collections? Here we explored USD sales data for the NFT collections dating back to November of 2020. Unfortunately, these collections were not available prior to this date so this is the available historical data. 
 
-The first takeway on these charts is the explosion in sales after 5/2/21. The plots below on both a zoomed and unzoomed basis show exponential growth of individual sales after this date. The number of six figure sales (USD) is remarkable.  
+The first takeaway on these charts is the explosion in sales after 5/2/21. The plots below on both a zoomed and un-zoomed basis show exponential growth of individual sales after this date. The number of six figure sales (USD) is remarkable.  
 
 The second takeaway is the distribution of plot points. There seems to be two consolidations of data points after 5/2/21. There seems to be a groupings above 150,000(USD) and below 50,000 (USD)
 
@@ -52,7 +52,7 @@ The second takeaway is the distribution of plot points. There seems to be two co
 ![NFT_sale_prices_over_time_zoomed](https://user-images.githubusercontent.com/91380617/142706570-9824c5dd-1903-4418-85e1-a488a5772e4e.png)
 
 ### How Has ETH Gas Pricing Impacted NFT Purchases?
-To plot this graph we aggregated total volume across the selected NFT collections and set the Y axis to Gas price. There was a heavy consolidation of data points in the lower left quadrant which indicates that NFT volume was LOW when gas prices were low. Our group was surprised at this finding because our inital thought prior to plotting was that volume would be HIGH when gas prices were low.
+To plot this graph we aggregated total volume across the selected NFT collections and set the Y axis to Gas price. There was a heavy consolidation of data points in the lower left quadrant which indicates that NFT volume was LOW when gas prices were low. Our group was surprised at this finding because our initial thought prior to plotting was that volume would be HIGH when gas prices were low.
 
 ![Gas_price_effects_on_nft_vol](https://user-images.githubusercontent.com/91380617/142706547-28f909a8-5269-4574-ae40-3dffc78963ae.png)
 
@@ -75,11 +75,11 @@ BITO, a newly launched ETF, which is composed of BITCOIN backed assets was one E
 
 - NFT volume across the explored projects was incredibly low relative to ETF volume. Perhaps a better comparison would have been to compare to another asset class entirely? Art?
 
-- Wide Spread of Ethereum gas prices as ETH rises in price. You would think that the data points would be more strongly correlated as ethereum rises in price. Possible explaination / hypothesis of individuals holding ETH as price rises thus curbing the actual usage on the blockchain?
+- Wide Spread of Ethereum gas prices as ETH rises in price. You would think that the data points would be more strongly correlated as ETH rises in price. Possible explanation / hypothesis of individuals holding ETH as price rises thus curbing the actual usage on the blockchain?
 
-- Why did ETH gas pricing not have an strong positive correllation with NFT volume? Possible explanation could be that due to these collections being limited releases (typically 10,000 count or fewer per collection) that individuals do not have the luxury of waiting for gas prices to reduce to purchase.
+- Why did ETH gas pricing not have an strong positive correlation with NFT volume? Possible explanation could be that due to these collections being limited releases (typically 10,000 count or fewer per collection) that individuals do not have the luxury of waiting for gas prices to reduce to purchase.
 
-- Explosion of NFT sales after 5/1/21. Did mainstream interest in NFT projects drive the uneducated buyer into investing? Facebook had been linked to Metaverse projects, Gamestop is working on an NFT platform, various celebrities have purchased NFTs as social media avatars. 
+- Explosion of NFT sales after 5/1/21. Did mainstream interest in NFT projects drive the uneducated buyer into investing? Facebook had been linked to Metaverse projects, GameStop is working on an NFT platform, various celebrities have purchased NFTs as social media avatars. 
 
 - NFTs are not equal. See distribution of NFT sales data on Price of NFT Sales over time. What makes these individual NFTs more valuable than the others? Combination of rarity traits, popularity, 
 
